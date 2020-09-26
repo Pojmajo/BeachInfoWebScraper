@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c429e970bf6f4b22b50e40e52f6ad4bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c429e970bf6f4b22b50e40e52f6ad4bb" ></div>
+        
+</body>
+<script>    
+    
+            var map_c429e970bf6f4b22b50e40e52f6ad4bb = L.map(
+                "map_c429e970bf6f4b22b50e40e52f6ad4bb",
+                {
+                    center: [54.364432, 18.718661],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a6d0497cb2d4f988b13862862929e4d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c429e970bf6f4b22b50e40e52f6ad4bb);
+        
+    
+            var feature_group_a5021b3812974a61a2c2b250e21eeeb2 = L.featureGroup(
+                {}
+            ).addTo(map_c429e970bf6f4b22b50e40e52f6ad4bb);
+        
+    
+            var marker_92724716de64429a9900867ee0b86cf9 = L.marker(
+                [54.410181, 18.634953],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_1bb70f615fbf45bd8d8f2f3c77e22eab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92724716de64429a9900867ee0b86cf9.setIcon(icon_1bb70f615fbf45bd8d8f2f3c77e22eab);
+        
+    
+        var popup_3cfddfa52b534ac58aa45e263165f8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e8388f1b5fa430092f3bedbfcf1e77b = $(`<div id="html_5e8388f1b5fa430092f3bedbfcf1e77b" style="width: 100.0%; height: 100.0%;">MOLO BRZEŹNO Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_3cfddfa52b534ac58aa45e263165f8d5.setContent(html_5e8388f1b5fa430092f3bedbfcf1e77b);
+        
+
+        marker_92724716de64429a9900867ee0b86cf9.bindPopup(popup_3cfddfa52b534ac58aa45e263165f8d5)
+        ;
+
+        
+    
+    
+            var marker_e56c9878d98f4d7f853608bd68719155 = L.marker(
+                [54.355103, 18.836223],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_1b7ef778166349dd9961d2e5f951f54b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e56c9878d98f4d7f853608bd68719155.setIcon(icon_1b7ef778166349dd9961d2e5f951f54b);
+        
+    
+        var popup_3f8c0b5c27f446cdb08d6c98405481e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45557da93e6c44fd9804d5700a9e40ba = $(`<div id="html_45557da93e6c44fd9804d5700a9e40ba" style="width: 100.0%; height: 100.0%;">SOBIESZEWO Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_3f8c0b5c27f446cdb08d6c98405481e8.setContent(html_45557da93e6c44fd9804d5700a9e40ba);
+        
+
+        marker_e56c9878d98f4d7f853608bd68719155.bindPopup(popup_3f8c0b5c27f446cdb08d6c98405481e8)
+        ;
+
+        
+    
+    
+            var marker_2f99ec9e3fb945e1a0592437fb0418da = L.marker(
+                [54.377429, 18.724222],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_d46f7fec7a4742788681644339dd7a28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f99ec9e3fb945e1a0592437fb0418da.setIcon(icon_d46f7fec7a4742788681644339dd7a28);
+        
+    
+        var popup_4f7852ed81d5412ebe401dcd8b495cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a27c5f5124f491ba0c63be5f3d9622d = $(`<div id="html_2a27c5f5124f491ba0c63be5f3d9622d" style="width: 100.0%; height: 100.0%;">STOGI Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_4f7852ed81d5412ebe401dcd8b495cd5.setContent(html_2a27c5f5124f491ba0c63be5f3d9622d);
+        
+
+        marker_2f99ec9e3fb945e1a0592437fb0418da.bindPopup(popup_4f7852ed81d5412ebe401dcd8b495cd5)
+        ;
+
+        
+    
+    
+            var marker_637c723f62834f66a56d80c4303d0aba = L.marker(
+                [54.422959, 18.603754],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_d7bd48392dde47a0bcf428feecb0f264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_637c723f62834f66a56d80c4303d0aba.setIcon(icon_d7bd48392dde47a0bcf428feecb0f264);
+        
+    
+        var popup_ead5165b026849b59bb603e2cb63507a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_337d80b7e5a246a192f7740cf2db2212 = $(`<div id="html_337d80b7e5a246a192f7740cf2db2212" style="width: 100.0%; height: 100.0%;">JELITKOWO Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_ead5165b026849b59bb603e2cb63507a.setContent(html_337d80b7e5a246a192f7740cf2db2212);
+        
+
+        marker_637c723f62834f66a56d80c4303d0aba.bindPopup(popup_ead5165b026849b59bb603e2cb63507a)
+        ;
+
+        
+    
+    
+            var marker_3ff0ee09e519476d82c0d42c061f65db = L.marker(
+                [54.348091, 18.874842],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_c2f59c642093407b8efd7ffbb41cfb57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ff0ee09e519476d82c0d42c061f65db.setIcon(icon_c2f59c642093407b8efd7ffbb41cfb57);
+        
+    
+        var popup_6f06becfd76449f188859f1be5d4e0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eb67a03e62e4e37ad7171b4ba4e6ac2 = $(`<div id="html_8eb67a03e62e4e37ad7171b4ba4e6ac2" style="width: 100.0%; height: 100.0%;">ORLE Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_6f06becfd76449f188859f1be5d4e0f9.setContent(html_8eb67a03e62e4e37ad7171b4ba4e6ac2);
+        
+
+        marker_3ff0ee09e519476d82c0d42c061f65db.bindPopup(popup_6f06becfd76449f188859f1be5d4e0f9)
+        ;
+
+        
+    
+    
+            var marker_72f2e98c731f49899bb167651ad22f2a = L.marker(
+                [54.423815, 18.601623],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_0f80680eef6e4f73b8f0b46dc2c90556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_72f2e98c731f49899bb167651ad22f2a.setIcon(icon_0f80680eef6e4f73b8f0b46dc2c90556);
+        
+    
+        var popup_38238881212f45578d47fc0753026b44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f206f8d592c46ebb3deb9096a0f3e3f = $(`<div id="html_5f206f8d592c46ebb3deb9096a0f3e3f" style="width: 100.0%; height: 100.0%;">KLIPPER Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_38238881212f45578d47fc0753026b44.setContent(html_5f206f8d592c46ebb3deb9096a0f3e3f);
+        
+
+        marker_72f2e98c731f49899bb167651ad22f2a.bindPopup(popup_38238881212f45578d47fc0753026b44)
+        ;
+
+        
+    
+    
+            var marker_a777222e19fe45a8bf624483283e4645 = L.marker(
+                [54.409271, 18.638813],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_28def2e526d249c481679bca21e025e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a777222e19fe45a8bf624483283e4645.setIcon(icon_28def2e526d249c481679bca21e025e1);
+        
+    
+        var popup_430d86495d8245d2aaa6334e99b57a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94712ba793fe4d8e9451d0cb3f055066 = $(`<div id="html_94712ba793fe4d8e9451d0cb3f055066" style="width: 100.0%; height: 100.0%;">DOM ZDR. BRZEŹNO Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_430d86495d8245d2aaa6334e99b57a86.setContent(html_94712ba793fe4d8e9451d0cb3f055066);
+        
+
+        marker_a777222e19fe45a8bf624483283e4645.bindPopup(popup_430d86495d8245d2aaa6334e99b57a86)
+        ;
+
+        
+    
+    
+            var marker_f73990d701cc4ceab45a61c03de9f634 = L.marker(
+                [54.351253, 18.934108],
+                {}
+            ).addTo(feature_group_a5021b3812974a61a2c2b250e21eeeb2);
+        
+    
+            var icon_8a6778ae1b1f4f6eaa23d968718bfd82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f73990d701cc4ceab45a61c03de9f634.setIcon(icon_8a6778ae1b1f4f6eaa23d968718bfd82);
+        
+    
+        var popup_1d72a30889e64a1fbd2f29519fde6b2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d5d020828d4eb8bea9f3a23ced963e = $(`<div id="html_b7d5d020828d4eb8bea9f3a23ced963e" style="width: 100.0%; height: 100.0%;">ŚWIBNO Temperatura powietrza:  ℃ Temperatura wody:  ℃</div>`)[0];
+            popup_1d72a30889e64a1fbd2f29519fde6b2f.setContent(html_b7d5d020828d4eb8bea9f3a23ced963e);
+        
+
+        marker_f73990d701cc4ceab45a61c03de9f634.bindPopup(popup_1d72a30889e64a1fbd2f29519fde6b2f)
+        ;
+
+        
+    
+</script>
